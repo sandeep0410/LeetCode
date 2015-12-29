@@ -4,6 +4,9 @@
 
 /**
  * @author Sandeep
+ * 
+ *         LeetCode Question: 318 https://leetcode.com/problems/maximum-product-of-word-lengths/
+ *         Maximum Product of Word Lengths
  *
  */
 public class Solution318 {
@@ -36,7 +39,9 @@ public class Solution318 {
 
 		for (int i = 0; i < words.length; i++) {
 			for (int j = i + 1; j < words.length; j++) {
-				if ((checker[i] & checker[j]) == 0) //checking if the two strings have common character
+				if ((checker[i] & checker[j]) == 0) // checking if the two
+													// strings have common
+													// character
 					max = Math.max(max, words[i].length() * words[j].length());
 			}
 		}
