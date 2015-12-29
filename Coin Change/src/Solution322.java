@@ -5,18 +5,21 @@
 /**
  * @author Sandeep
  * 
- *         LeetCode Question: 322 https://leetcode.com/problems/coin-change/ 
+ *         LeetCode Question: 322 https://leetcode.com/problems/coin-change/
  *         Coin Change
  *
  */
 public class Solution322 {
 	/**
-	 * The folowwing solution uses dynamic programming. We start with 1 and count the minimum number of coins at each that can add up to that amount. This process is calculated until the final amount.
+	 * The folowwing solution uses dynamic programming. We start with 1 and
+	 * count the minimum number of coins at each that can add up to that amount.
+	 * This process is calculated until the final amount.
+	 * 
 	 * @param coins
 	 * @param amount
 	 * @return
 	 */
-	
+
 	public int coinChange(int[] coins, int amount) {
 		int[] count = new int[amount + 1];
 		for (int i = 1; i < count.length; i++) {
