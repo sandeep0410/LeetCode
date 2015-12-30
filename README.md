@@ -5,6 +5,7 @@ Will List all the Solutions that I commit in Github over here:
 Solutions:
 104. Maximum Depth of a binary tree
 136. Single Number
+171.Excel Sheet Column Number
 237. Delete Node in a Linked List
 242. Valid Anagram
 258. Add Digits
